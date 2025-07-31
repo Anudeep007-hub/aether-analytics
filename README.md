@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# Aether Analytics Dashboard
 
-## Project info
+A modern, responsive analytics dashboard built with React, Vite, and Tailwind CSS. This project showcases a clean interface for data visualization, featuring various chart types and a modular component structure.
 
-**URL**: https://lovable.dev/projects/238627c4-3afa-43ea-a776-68b75add5dad
+![Aether Analytics Dashboard Screenshot](https://placehold.co/800x450/1a202c/ffffff?text=Aether+Analytics+UI)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+-   **Responsive Design:** Fully responsive layout that works on desktop, tablet, and mobile devices.
+-   **Interactive Charts:** Data visualizations powered by Recharts, including line charts and bar charts.
+-   **Modular Components:** A clean and organized codebase with reusable React components.
+-   **Utility-First Styling:** Styled with Tailwind CSS for a modern and maintainable design system.
+-   **Fast Development:** Built on top of Vite for a lightning-fast development experience.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/238627c4-3afa-43ea-a776-68b75add5dad) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+-   **Framework:** [React](https://reactjs.org/)
+-   **Build Tool:** [Vite](https://vitejs.dev/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Charts:** [Recharts](https://recharts.org/)
+-   **Icons:** [Lucide React](https://lucide.dev/guide/packages/lucide-react)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+You need to have [Node.js](https://nodejs.org/) (version 14 or later) and [npm](https://www.npmjs.com/) installed on your system.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/Anudeep007-hub/aether-analytics.git](https://github.com/Anudeep007-hub/aether-analytics.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd aether-analytics
+    ```
+3.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+4.  **Run the development server:**
+    ```sh
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🤖 AI-Assisted Development
 
-**Use GitHub Codespaces**
+This project was developed with the assistance of AI tools like Gemini. AI was instrumental in:
+-   **Scaffolding Components:** Generating initial boilerplate for React components and hooks.
+-   **Configuring Charts:** Creating the necessary props and configurations for the Recharts library.
+-   **Styling with Tailwind:** Producing responsive layouts and utility class strings for styling components.
+-   **Writing Utility Functions:** Generating helper functions for data formatting and mock data creation.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This AI-assisted workflow accelerated development by handling repetitive tasks, allowing for a greater focus on architecture, user experience, and component integration.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📄 License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/238627c4-3afa-43ea-a776-68b75add5dad) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License. See the `LICENSE` file for details.
