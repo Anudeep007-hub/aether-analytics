@@ -95,6 +95,7 @@ export function HeroSection() {
           <Button 
             size="lg" 
             className="btn-premium text-lg px-12 py-4 h-auto interactive-scale"
+            onClick={() => window.location.href = '/dashboard'}
           >
             Get Started
           </Button>
@@ -102,8 +103,9 @@ export function HeroSection() {
             variant="outline" 
             size="lg" 
             className="btn-glass text-lg px-12 py-4 h-auto"
+            onClick={() => window.location.href = '/dashboard'}
           >
-            Watch Demo
+            View Dashboard
           </Button>
         </motion.div>
 
