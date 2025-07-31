@@ -1,12 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Navbar } from "@/components/navigation/navbar"
+import { HeroSection } from "@/components/dashboard/hero-section"
+import { DashboardOverview } from "@/components/dashboard/dashboard-overview"
+import { FeaturesSection } from "@/components/dashboard/features-section"
+import { Footer } from "@/components/dashboard/footer"
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background overflow-x-hidden">
+      <Navbar />
+      <main>
+        <HeroSection />
+        <div id="dashboard">
+          <DashboardOverview />
+        </div>
+        <div id="features">
+          <FeaturesSection />
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 };
