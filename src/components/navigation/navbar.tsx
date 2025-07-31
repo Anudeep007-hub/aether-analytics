@@ -6,10 +6,9 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { cn } from "@/lib/utils"
 
 const navItems = [
-  { name: "Features", href: "#features" },
+
   { name: "Dashboard", href: "/dashboard" },
-  { name: "Pricing", href: "#pricing" },
-  { name: "About", href: "#about" },
+
 ]
 
 export function Navbar() {
@@ -72,9 +71,7 @@ export function Navbar() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
-            <Button variant="ghost" className="btn-glass">
-              Sign In
-            </Button>
+
             <Button className="btn-premium" onClick={() => window.location.href = '/dashboard'}>
               Get Started
             </Button>
@@ -124,9 +121,7 @@ export function Navbar() {
               </motion.a>
             ))}
             <div className="pt-4 space-y-3">
-              <Button variant="ghost" className="w-full btn-glass">
-                Sign In
-              </Button>
+
               <Button className="w-full btn-premium" onClick={() => window.location.href = '/dashboard'}>
                 Get Started
               </Button>
